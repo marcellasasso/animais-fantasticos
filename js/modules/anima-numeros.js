@@ -44,6 +44,7 @@ export default class AnimaNumeros {
     this.observer.observe(this.observerTarget, { attributes: true });
   }
 
+  // inicia
   init() {
     if (this.numeros.length && this.observerTarget) {
       this.addMutationObserver();
